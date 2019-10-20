@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-const api = axios.create({baseURL: 'https://sample-api-78c77.firebaseio.com/episodes/SHOW123.json'});
+const api = axios.create({baseURL: 'https://rocketseat-node.herokuapp.com/api'});
 
 export default api;
